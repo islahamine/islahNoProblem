@@ -25,3 +25,10 @@ $(function(){
   		$("html,body").animate({scrollTop : 0},600);
   	});
 });
+
+$(document).ready(function () {
+    'use strict';
+    $('.carousel').carousel({
+        interval: 4000
+    });
+});
